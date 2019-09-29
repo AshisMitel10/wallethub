@@ -1,0 +1,16 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="wallethub Automation Launcher">
+	<parameter name="appName" value="wallethub" />											<!--  Application to be launched -->
+	<parameter name="appLog" value="Yes" />											    <!--  Yes / No value to start logging the application logs -->
+	<parameter name="sysLog" value="Yes" />											    <!--  Yes / No value to start logging the system logs -->
+	<parameter name="Build" value="1.0" />										<!--  For wallethub it will be always null. It can have a value in other applications.-->
+	<parameter name="reRunOnFail" value="No" />										<!--  To enable re-run for failed test cases. on this flag is set, 3 retries will be done -->
+	<parameter name="screenShotOnFail" value="Yes" />									<!--  Enable capturing screenshots only on failure. -->
+<!-- 	<test name="wallethub Automation Suite Launcher">	   -->
+ 	<test name="wallethub Automation Suite Launcher" parallel="false" preserve-order="true"> 
+    	<classes>
+       		<class name="STACore.staLauncher.STALauncher"></class>  
+    	</classes>   
+	</test>
+</suite>
+ 
