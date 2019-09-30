@@ -5,7 +5,7 @@
 	<artifactId>STA_Framework</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>STA_Framework</name>
-	<description>Selenium automation framework for web</description>
+	<description>Selenium automation framework for  web</description>
 	<build>
 		<sourceDirectory>src</sourceDirectory>
 		<resources>
@@ -32,7 +32,7 @@
 				<artifactId>maven-surefire-plugin</artifactId>
 				<version>3.0.0-M3</version>
 				<configuration>
-					<!-- Suite testng xml file to consider for test execution -->
+					<!-- Suite testng xml file to consider  for test execution -->
 					<suiteXmlFiles>
 						<suiteXmlFile>wallethub.xml</suiteXmlFile>
 					</suiteXmlFiles>
