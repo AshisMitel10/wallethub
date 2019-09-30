@@ -47,19 +47,19 @@ public class facebook {
 	/**
 	 * Page name : Login Page -> User ID field
 	 **/
-	@FindBy(xpath = "//input[@id='email']")
+	@FindBy(xpath = "//input[@name='email']")
 	public WebElement FBUID_input;
 
 	/**
 	 * Page name : Login Page -> Secreat Field
 	 **/
-	@FindBy(xpath = "//input[@id='pass']")
+	@FindBy(xpath = "//input[@name='pass']")
 	public WebElement FBSecreat_input;
 
 	/**
 	 * Page name : Login Page -> Login Button
 	 **/
-	@FindBy(xpath = "//input[@id='u_0_b']")
+	@FindBy(xpath = "//button[@name='login']")
 	public WebElement LogIn_input;
 	
 	/**
